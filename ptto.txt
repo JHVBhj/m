@@ -12,8 +12,8 @@ bemenet:putto huzott szamok, megjatszott putto szamok
  B mezo :1-4--1szamot jelol
  
  
- az „A” mezõben megjelölt számok közül legalább 4 megegyezik a kisorsolt számok valamelyikével és a „B” mezõben megjelölt számod is azonos a kisorsolt „B” számmal (4+1 találat) vagy
-az „A” mezõben a megjelölt számok közül legalább 5 szám megegyezik a kisorsolt számok valamelyikével.
+ az â€Aâ€ mezÅ‘ben megjelÃ¶lt szÃ¡mok kÃ¶zÃ¼l legalÃ¡bb 4 megegyezik a kisorsolt szÃ¡mok valamelyikÃ©vel Ã©s a â€Bâ€ mezÅ‘ben megjelÃ¶lt szÃ¡mod is azonos a kisorsolt â€Bâ€ szÃ¡mmal (4+1 talÃ¡lat) vagy
+az â€Aâ€ mezÅ‘ben a megjelÃ¶lt szÃ¡mok kÃ¶zÃ¼l legalÃ¡bb 5 szÃ¡m megegyezik a kisorsolt szÃ¡mok valamelyikÃ©vel.
 
 szorzat: 
  https://nyeremenyhirek.com/tag/putto/
@@ -26,3 +26,8 @@ szorzat:
  szorzat: 
  https://nyeremenyhirek.com/tag/putto/
  csak 300 ft tobbszoroseit
+ 
+def talalat(): 2 listabol az elso kettot csak ossze hasonlitani
+utana a ket listat ossze hasonlitani egy harmadik listaba, megszamolni a hosszat es az a talalt a 8bol
+
+4. nyeremeny osszeg meghatarozasa
