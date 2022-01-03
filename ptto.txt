@@ -1,0 +1,28 @@
+
+Putto eredmeny meghatarozas es nyeremeny meghatarozas
+
+
+bemenet:putto huzott szamok, megjatszott putto szamok
+ feltett osszeg
+ 
+ kimenet: hany talalat, penz nyeremeny
+ 
+ 1 huzas van,
+ A mezo :szamok 1-20ig: 8at jelol
+ B mezo :1-4--1szamot jelol
+ 
+ 
+ az „A” mezõben megjelölt számok közül legalább 4 megegyezik a kisorsolt számok valamelyikével és a „B” mezõben megjelölt számod is azonos a kisorsolt „B” számmal (4+1 találat) vagy
+az „A” mezõben a megjelölt számok közül legalább 5 szám megegyezik a kisorsolt számok valamelyikével.
+
+szorzat: 
+ https://nyeremenyhirek.com/tag/putto/
+ csak 300 ft tobbszoroseit
+ 
+ 1.adatok bekerese
+ 2. 9 elemu listaba mentem
+ feltett osszeg egesz tipusu valtozoba kerul
+ 3.meghatarozni a es b oszlopbol hany talalat van
+ szorzat: 
+ https://nyeremenyhirek.com/tag/putto/
+ csak 300 ft tobbszoroseit
