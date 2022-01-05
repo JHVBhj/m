@@ -1,0 +1,39 @@
+package vizallas;
+import java.io.*;
+import java.util.*;
+
+public class Vizallas {
+
+    private static ArrayList<Mérés> mérések = new ArrayList<>();
+
+    private static void f1(String label) {
+        System.out.println(label);
+    }
+    private static void f2(String label) {
+        System.out.println(label);
+    }
+    private static void f3(String label) {
+        System.out.println(label);
+    }
+    private static void f4(String label) {
+        System.out.println(label);
+    }
+    private static void f5(String label) {
+        System.out.println(label);
+    }
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    private static void f6(String label) {
+        System.out.println(label);
+    }
+    
+    public static void main(String[] args)  {
+        f1("1.feladat");
+        f2("2.feladat: vizallasok 2002 szilveszteren");
+        f3("3.feladat: 9 meternel magasabb vizallasok");
+        f4("4.feladat");
+        f5("5.feladat: a budapesti legmagasabb vízállás");
+        f6("6.feladat: varosok");
+    }
+}
