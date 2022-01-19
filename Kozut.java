@@ -12,6 +12,7 @@ public class Kozut {
     private static List<Integer> list4 = new ArrayList<>();
     private static List<Integer> list4_2 = new ArrayList<>();
     private static List<String> list5 = new ArrayList<>();
+    private static List<String> list5_2 = new ArrayList<>();
     private static void f1(String label){
         System.out.println(label);
         inputFile("src/kozut/jarmu.txt");
@@ -77,15 +78,45 @@ public class Kozut {
     }
     private static void f5(String label){
         System.out.println(label);
-        int count=0;
+        
+        
         for (int i = 0; i < kozutimeresek.size(); i++) {
             list5.add(kozutimeresek.get(i).getRendszam());
-            for (int j = 0; j < list5.size(); j++) {
-                if 
-            }
+            
         }
+        System.out.println(list5);
+        HashSet<String> set = new HashSet<>(list5);
+        list5.removeAll(new HashSet(list5_2));
+        
+        
+        
+        System.out.println(list5_2);
     }
-    private static void inputFile(String path) {
+    
+    
+    
+    
+    public class Program {
+    public static void main(String[] args) {
+        
+        // Create ArrayList with one duplicate element.
+        ArrayList<String> values = new ArrayList<>();
+        values.add("cat");
+        values.add("dog");
+        values.add("cat");
+        values.add("bird");
+        
+        // Create HashSet from ArrayList.
+        HashSet<String> set = new HashSet<>(values);
+        
+        // Create ArrayList from the set.
+        ArrayList<String> result = new ArrayList<>(set);
+        
+        // The result.
+        System.out.println(result.toString());
+    }
+}
+   /* private static void inputFile(String path) {
         try {
             RandomAccessFile f = new RandomAccessFile(path, "r");
             String sor = f.readLine();
@@ -98,12 +129,12 @@ public class Kozut {
             System.exit(1);
         }
         System.out.println("\tFájl beolvasása kész");
-    }
+    }*/
     public static void main(String[] args) {
         f1("1.feladat");
         f2("2.feladat: óránkénti ellenőrzés");
         f3("3.feladat: statisztika az ellenőrzőpont előtti áthaladásról");
-        f4("4.feladat: a leghosszabb forgalommentes időszak");
+        //f4("4.feladat: a leghosszabb forgalommentes időszak");
         f5("5.feladat:  a különböző járművek száma");
         
     }
