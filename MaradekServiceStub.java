@@ -12,7 +12,8 @@ package com.farm.osztomaven;
 public class MaradekServiceStub implements MaradekService{
     @Override
     public int maradek(int szam,int mivel){
-        int mar=szam%mivel;
+        //int mar=szam%mivel; helyett:
+		int mar=1;//A tesztesetbeli 5-nek a 2-vel való maradéka
     return mar;
     }//mely szamot osztjuk valamivel
     //és mennyi a maradék

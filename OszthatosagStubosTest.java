@@ -45,7 +45,7 @@ public class OszthatosagStubosTest {
         MaradekService maradekServiceStub=new MaradekServiceStub();
         Oszthatosag oszthatosag=new Oszthatosag(maradekServiceStub);
         
-        //List<String> expResult = null;
+        
         boolean result = oszthatosag.oszthatoE(szam,mivel);
         assertEquals(false, result);
     }
